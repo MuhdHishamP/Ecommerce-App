@@ -1,0 +1,16 @@
+.header {
+  position: fixed;
+  background-color: navy;
+  width: 100%;
+  text-align: center;
+  z-index: 1;
+}
+
+.links a {
+  text-decoration: none;
+  color: beige;
+}
+
+.links > .cart {
+  position: absolute;
+  right: .3rem;}

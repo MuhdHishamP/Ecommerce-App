@@ -1,0 +1,6 @@
+.cart {
+  background-color: black;
+  position: relative;
+  top: 4rem;
+  z-index: 9;
+}

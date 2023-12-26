@@ -1,9 +1,10 @@
 .header {
-  position: fixed;
+  /* position: fixed; */
+  top: 0;
   background-color: navy;
   width: 100%;
   text-align: center;
-  z-index: 1;
+  z-index: 2; /* Use a higher z-index than the other elements on the page */
 }
 
 .links a {
@@ -12,5 +13,5 @@
 }
 
 .links > .cart {
-  position: absolute;
+  position: fixed;
   right: .3rem;}

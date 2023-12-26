@@ -1,9 +1,8 @@
 .card-container{
     display: grid;
     grid-template-columns: repeat(5,minmax(auto,16rem));
-    padding-top :4rem;
-}
 
+}
 .card{
     padding: 1rem;
     margin: 1rem;
